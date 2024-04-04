@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:./src/main/resources/DB/biblio
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+server:
+  port: 8080
+#application:
+#  config:
+#    max_issues: 3
